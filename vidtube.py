@@ -23,12 +23,12 @@ class YouTubeDownloader(QWidget):
         self.url_input.setPlaceholderText("https://www.youtube.com/watch?v=...")
         layout.addWidget(self.url_input)
         
-        # Progress bar for download progress
+        # Progress bar for download progress  
         self.progress_bar = QProgressBar(self)
         self.progress_bar.setValue(0)
         layout.addWidget(self.progress_bar)
         
-        # Download button 
+        # Download button  
         self.download_button = QPushButton("Download", self)
         self.download_button.clicked.connect(self.download_video)
         layout.addWidget(self.download_button)
