@@ -15,7 +15,7 @@ class YouTubeDownloader(QWidget):
         
         layout = QVBoxLayout()
 
-        # Label and input field for YouTube URL
+        # Label and input field for YouTube URL 
         self.label = QLabel("Enter YouTube URL:")
         layout.addWidget(self.label)
         
