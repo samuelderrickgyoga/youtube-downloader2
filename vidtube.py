@@ -42,7 +42,7 @@ class YouTubeDownloader(QWidget):
             QMessageBox.warning(self, "Invalid URL", "Please enter a valid YouTube URL.")
             return
         
-        # Get the Downloads folder path
+        # Get the Downloads folder path on device
         downloads_folder = os.path.join(os.path.expanduser("~"), "Downloads")
         
         # yt-dlp options to download video in the Downloads folder with progress hook
